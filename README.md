@@ -1,31 +1,7 @@
-# e-commerce/e-commerce
+This is just a fun project I built to play around with GraphQL and shopify
+and headless CMS in general.
 
-store
-
-## Getting Started
-
-Download links:
-
-SSH clone URL: ssh://git@git.jetbrains.space/felopater/e-commerce/e-commerce.git
-
-HTTPS clone URL: https://git.jetbrains.space/felopater/e-commerce/e-commerce.git
-
-
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-## Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Examples
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a production system.
-
-## Resources
-
-Add links to external resources for this project, such as CI server, bug tracker, etc.
+The way it works is through fetching everything on load through
+getServerSideProps and then passing it to a product component and for
+Checkout it's a basic mutation function that uses the variant id passed down
+as props and then using next router to push the user to checkout.

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "jaapokki-regular";
+  src: url("../fonts/jaapokki-regular.woff")
+}
+
+@font-face {
+  font-family: "jaapokkienchance-regular";
+  src: url("../fonts/jaapokkienchance-regular.woff")
+}
+
+@font-face {
+  font-family: "jaapokkisubtract-regular";
+  src: url("../fonts/jaapokkisubtract-regular.woff")
+}
+
+body {
+  background: url("../images/galaxy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
